@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { SCREENS } from "../page";
+import { SCREENS } from "../contants";
 
 interface WelcomeProps {
   handleScreenChange: (screen: string) => void;

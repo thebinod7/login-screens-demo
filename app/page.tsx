@@ -4,12 +4,7 @@ import React from "react";
 import ConfirmEmail from "./components/ConfirmEmail";
 import GetStarted from "./components/GetStarted";
 import Welcome from "./components/Welcome";
-
-export const SCREENS = {
-  WELCOME: "WELCOME",
-  CONFIRM_EMAIL: "CONFIRM_EMAIL",
-  GET_STARTED: "GET_STARTED",
-};
+import { SCREENS } from "./contants";
 
 export default function Home() {
   const [screen, setScreen] = React.useState(SCREENS.WELCOME);

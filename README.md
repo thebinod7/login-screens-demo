@@ -6,7 +6,10 @@ Then run:
 
 ```bash
 pnpm i
+# or
+yarn
 
+# To run the project:
 yarn dev
 # or
 pnpm dev

@@ -88,7 +88,6 @@ h3 {
 
 .social-login-button {
   cursor: pointer;
-  opacity: 0px;
   flex: 1;
   text-align: center;
   width: 85px;
@@ -97,7 +96,6 @@ h3 {
   gap: 0px;
   border-radius: 10px;
   border: 1px 0px 0px 0px;
-  opacity: 0px;
   border: 1px solid var(--Shades-Primary-500, #363e46);
   background: var(--Shades-Primary-100, #13191f);
 }
